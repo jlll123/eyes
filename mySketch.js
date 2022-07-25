@@ -24,3 +24,6 @@ function mouseMoved(){
 	points.slice(-1)[0].x = mouseX
 	points.slice(-1)[0].y = mouseY
 }
+function mousePressed(){
+	points.push(createVector(mouseX,mouseY))
+}
